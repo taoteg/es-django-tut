@@ -10,6 +10,7 @@ Using this tutorial and sbsequent references as baseline:
 - https://www.elastic.co/guide/index.html
 - https://github.com/elastic/elasticsearch
 - https://www.codingforentrepreneurs.com/blog/django-virtualenv-python-gitignore-file/
+- https://pixabay.com/en/blog/posts/django-search-with-elasticsearch-47/
 
 Uses a custom project template that is no loger available, so recreating manually to match tutorial structure.
 
