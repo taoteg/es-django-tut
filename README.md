@@ -495,11 +495,11 @@ __Refactoring Project Structure__
     ```
 
 1. Create a superuser for the admin interface: ```$ python project/manage.py createsuperuser```
-  - Provide a username and password as prompted.
+    - Provide a username and password as prompted.
 
 1. Test the project: ```$ python project/manage.py runserver```
-  - You can see the running project in a browser at: ```http://localhost:8000/admin/```
-  - If you access ```http://localhost:8000``` you will get a 404 error because we have not define any urls to handle that route.
+    - You can see the running project in a browser at: ```http://localhost:8000/admin/```
+    - If you access ```http://localhost:8000``` you will get a 404 error because we have not define any urls to handle that route.
 
 1. Login to the admin panel to verify everything is working.
 
