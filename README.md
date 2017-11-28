@@ -1,6 +1,10 @@
 # ElasticSearch Integration with Django (1.9.3) Tutorial
 
-## Part 1: Basic Django Setup
+## Objectives
+
+Learn how to integrate ElasticSearch into a Django (v1.9.3) codebase.
+
+## Part 1: Basic Setup
 
 The tutorial uses a custom project template that is no loger available, so recreating manually to match tutorial structure.
 
