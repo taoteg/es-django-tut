@@ -9,6 +9,7 @@ Using this tutorial and sbsequent references as baseline:
 - https://docs.djangoproject.com/en/1.11/
 - https://www.elastic.co/guide/index.html
 - https://github.com/elastic/elasticsearch
+- https://www.codingforentrepreneurs.com/blog/django-virtualenv-python-gitignore-file/
 
 Uses a custom project template that is no loger available, so recreating manually to match tutorial structure.
 
