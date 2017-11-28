@@ -558,9 +558,10 @@ __Tutorial__
 
 __Additional Refs__
 
-- https://docs.djangoproject.com/en/1.11/
-- https://www.elastic.co/guide/index.html
+- https://docs.djangoproject.com/en/1.9/
 - https://github.com/elastic/elasticsearch
+- https://www.elastic.co/guide/index.html
+- https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping.html
 - https://www.codingforentrepreneurs.com/blog/django-virtualenv-python-gitignore-file/
 - https://pixabay.com/en/blog/posts/django-search-with-elasticsearch-47/
 - https://model-mommy.readthedocs.io/en/latest/
