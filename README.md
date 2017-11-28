@@ -1,18 +1,8 @@
 # ElasticSearch Integration with Django (1.9.3) Tutorial
 
-## Setup
+## Part 1: Basic Django Setup
 
-Using this tutorial and sbsequent references as baseline:
-
-- https://qbox.io/blog/how-to-elasticsearch-python-django-part1
-- https://github.com/CommandrAvander/elasticsearch-django-tutorial
-- https://docs.djangoproject.com/en/1.11/
-- https://www.elastic.co/guide/index.html
-- https://github.com/elastic/elasticsearch
-- https://www.codingforentrepreneurs.com/blog/django-virtualenv-python-gitignore-file/
-- https://pixabay.com/en/blog/posts/django-search-with-elasticsearch-47/
-
-Uses a custom project template that is no loger available, so recreating manually to match tutorial structure.
+The tutorial uses a custom project template that is no loger available, so recreating manually to match tutorial structure.
 
 __Target Structure__
 
@@ -540,3 +530,26 @@ $ tree -I ".git|__pycache__|project.bak"
 __Create A Reusable Command To Populate DB Tables__
 
 ...
+
+
+
+
+
+
+
+
+
+
+
+
+## References
+
+Using this tutorial and sbsequent references as baseline:
+
+- https://qbox.io/blog/how-to-elasticsearch-python-django-part1
+- https://github.com/CommandrAvander/elasticsearch-django-tutorial
+- https://docs.djangoproject.com/en/1.11/
+- https://www.elastic.co/guide/index.html
+- https://github.com/elastic/elasticsearch
+- https://www.codingforentrepreneurs.com/blog/django-virtualenv-python-gitignore-file/
+- https://pixabay.com/en/blog/posts/django-search-with-elasticsearch-47/
