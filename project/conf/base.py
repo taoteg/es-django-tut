@@ -214,8 +214,7 @@ LOGGING = {
     }
 }
 
-# from elasticsearch import Elasticsearch, RequestsHttpConnection
-
+# ES CONFIG.
 ES_CLIENT = Elasticsearch(
     ['http://127.0.0.1:9200/'],
     connection_class=RequestsHttpConnection

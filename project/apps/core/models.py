@@ -1,6 +1,12 @@
 from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator
-# from django.contrib.contenttypes import generic
+# ADDED.
+import django.db.models.options as options
+
+
+options.DEFAULT_NAMES = options.DEFAULT_NAMES + (
+    'es_index_name', 'es_type_name', 'es_mapping'
+)
 
 
 class University(models.Model):
@@ -42,3 +48,52 @@ class Student(models.Model):
     # def __unicode__(self):            # Python 2..
     def __str__(self):                  # Python 3.
         return (self.last_name + ', ' + self.first_name)
+
+    # ES Mapping for Indexing.
+    # ES6 tweaks:
+    # Replaces 'string' with 'text'.
+    # Replace 'index': 'not_analyzed' with 'index': False.
+    # Replace 'store': 'yes' with 'store': True.
+    class Meta:
+        es_index_name = 'django'
+        es_type_name = 'student'
+        es_mapping = {
+            'properties': {
+                'university': {
+                    'type': 'object',
+                    'properties': {
+                        'name': {
+                            'type': 'text',
+                            'index': False,
+                        }
+                    }
+                },
+                'first_name': {
+                    'type': 'text',
+                    'index': False
+                },
+                'last_name': {
+                    'type': 'text',
+                    'index': False
+                    },
+                'age': {
+                    'type': 'short'
+                },
+                'year_in_school': {
+                    'type': 'text'
+                },
+                'name_complete': {
+                    'type': 'completion',
+                    'analyzer': 'simple',
+                    # 'payloads': True,
+                    'preserve_separators': True,
+                    'preserve_position_increments': True,
+                    'max_input_length': 50
+                },
+                'course_names': {
+                    'type': 'text',
+                    'store': True,
+                    'index': False
+                }
+            }
+        }
