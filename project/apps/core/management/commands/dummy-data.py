@@ -20,9 +20,6 @@ class Command(BaseCommand):
 
     # def handle(self, *args, **options):
     #     raise NotImplementedError()
-    #
-    # # Test that the command is working:
-    # print('Generating dummy data...')
 
 
     def handle(self, *args, **options):
@@ -54,7 +51,7 @@ class Command(BaseCommand):
 
 
     def make_courses(self):
-        template_options = ['CS%s0%s', 'MATH%s0%s', 'CHEM%s0%s', 'PHYS%s0%s']  # , 'BIO%s0%s'
+        template_options = ['CS%s0%s', 'MATH%s0%s', 'CHEM%s0%s', 'PHYS%s0%s']
         self.courses = []
         for num in range(1, 4):
             for course_num in range(1, 4):
