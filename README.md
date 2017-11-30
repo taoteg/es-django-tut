@@ -566,3 +566,12 @@ __Additional Refs__
 - https://pixabay.com/en/blog/posts/django-search-with-elasticsearch-47/
 - https://model-mommy.readthedocs.io/en/latest/
 - https://pypi.python.org/pypi/names/0.3.0
+
+__Troubleshooting Refs__
+
+- http://elasticsearch-py.readthedocs.io/en/master/helpers.html#bulk-helpers
+- http://www.django-rest-framework.org/api-guide/serializers/#modelserializer
+- https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-store.html
+- https://www.elastic.co/guide/en/elasticsearch/reference/current/suggester-context.html
+- https://www.elastic.co/guide/en/elasticsearch/reference/6.0/docs-bulk.html
+-

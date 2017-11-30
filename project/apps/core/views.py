@@ -32,6 +32,9 @@ def autocomplete_view(request):
     return HttpResponse(data, mimetype)
 
 def student_detail(request):
+    # TESTING TEMPLATE
+    # return HttpResponse("STUDENT BASE VIEW")
+    # ACTUAL STUDENT VIEW:
     student_id = request.GET.get('student_id')
     student = Student.objects.get(pk=student_id)
     return render(request, 'student-details.html', context={'student': student})
@@ -39,7 +42,7 @@ def student_detail(request):
 
 class HomePageView(TemplateView):
     template_name = "index.html"
-    #"""
+    # """
     def get_context_data(self, **kwargs):
         body = {
             'aggs': {
