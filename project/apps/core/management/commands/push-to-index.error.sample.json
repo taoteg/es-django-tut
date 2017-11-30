@@ -1,0 +1,1266 @@
+[
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30401
+          },
+          "output": "Linda Dye",
+          "input": [
+            "Linda",
+            "Dye"
+          ]
+        },
+        "year_in_school": "FR",
+        "age": 20,
+        "first_name": "Linda",
+        "university": {
+          "_id": 250,
+          "name": "MGU"
+        },
+        "last_name": "Dye",
+        "course_names": [
+          "PHYS303",
+          "PHYS103",
+          "PHYS101",
+          "CHEM302",
+          "PHYS203",
+          "CHEM303",
+          "MATH203"
+        ]
+      },
+      "_id": "30401",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30402
+          },
+          "output": "Edwin Seifert",
+          "input": [
+            "Edwin",
+            "Seifert"
+          ]
+        },
+        "year_in_school": "JR",
+        "age": 25,
+        "first_name": "Edwin",
+        "university": {
+          "_id": 248,
+          "name": "TAMU"
+        },
+        "last_name": "Seifert",
+        "course_names": [
+          "CS301",
+          "PHYS301",
+          "MATH103",
+          "PHYS202",
+          "CS101",
+          "MATH202",
+          "PHYS201",
+          "MATH303",
+          "MATH301"
+        ]
+      },
+      "_id": "30402",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30403
+          },
+          "output": "Miguel Smith",
+          "input": [
+            "Miguel",
+            "Smith"
+          ]
+        },
+        "year_in_school": "SR",
+        "age": 20,
+        "first_name": "Miguel",
+        "university": {
+          "_id": 247,
+          "name": "UT"
+        },
+        "last_name": "Smith",
+        "course_names": [
+          "MATH202",
+          "MATH203",
+          "CS301",
+          "MATH201",
+          "PHYS202",
+          "PHYS302",
+          "MATH103",
+          "PHYS101"
+        ]
+      },
+      "_id": "30403",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30404
+          },
+          "output": "Erick Catalfamo",
+          "input": [
+            "Erick",
+            "Catalfamo"
+          ]
+        },
+        "year_in_school": "JR",
+        "age": 21,
+        "first_name": "Erick",
+        "university": {
+          "_id": 248,
+          "name": "TAMU"
+        },
+        "last_name": "Catalfamo",
+        "course_names": [
+          "CHEM201",
+          "CHEM302",
+          "CS203",
+          "MATH203",
+          "CS103",
+          "PHYS202",
+          "MATH302"
+        ]
+      },
+      "_id": "30404",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30405
+          },
+          "output": "Douglas Smith",
+          "input": [
+            "Douglas",
+            "Smith"
+          ]
+        },
+        "year_in_school": "JR",
+        "age": 20,
+        "first_name": "Douglas",
+        "university": {
+          "_id": 249,
+          "name": "MIT"
+        },
+        "last_name": "Smith",
+        "course_names": [
+          "CHEM201",
+          "CHEM302",
+          "PHYS201",
+          "PHYS203",
+          "CS103",
+          "MATH103",
+          "MATH101"
+        ]
+      },
+      "_id": "30405",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30406
+          },
+          "output": "Chris Thixton",
+          "input": [
+            "Chris",
+            "Thixton"
+          ]
+        },
+        "year_in_school": "JR",
+        "age": 24,
+        "first_name": "Chris",
+        "university": {
+          "_id": 248,
+          "name": "TAMU"
+        },
+        "last_name": "Thixton",
+        "course_names": [
+          "CHEM102",
+          "CS203"
+        ]
+      },
+      "_id": "30406",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30407
+          },
+          "output": "Jane Mcpherson",
+          "input": [
+            "Jane",
+            "Mcpherson"
+          ]
+        },
+        "year_in_school": "SO",
+        "age": 22,
+        "first_name": "Jane",
+        "university": {
+          "_id": 252,
+          "name": "KPI"
+        },
+        "last_name": "Mcpherson",
+        "course_names": [
+          "PHYS201",
+          "MATH103",
+          "MATH102",
+          "CHEM103",
+          "CS302",
+          "PHYS102",
+          "CHEM202"
+        ]
+      },
+      "_id": "30407",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30408
+          },
+          "output": "Anita Holsten",
+          "input": [
+            "Anita",
+            "Holsten"
+          ]
+        },
+        "year_in_school": "JR",
+        "age": 18,
+        "first_name": "Anita",
+        "university": {
+          "_id": 253,
+          "name": "DPI"
+        },
+        "last_name": "Holsten",
+        "course_names": [
+          "PHYS303",
+          "CHEM203",
+          "CS101",
+          "MATH201"
+        ]
+      },
+      "_id": "30408",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30409
+          },
+          "output": "Anthony Mccullum",
+          "input": [
+            "Anthony",
+            "Mccullum"
+          ]
+        },
+        "year_in_school": "SO",
+        "age": 24,
+        "first_name": "Anthony",
+        "university": {
+          "_id": 253,
+          "name": "DPI"
+        },
+        "last_name": "Mccullum",
+        "course_names": [
+          "PHYS202",
+          "CS103",
+          "CHEM101",
+          "CHEM103",
+          "MATH103",
+          "CS302",
+          "CHEM302",
+          "MATH202",
+          "MATH302"
+        ]
+      },
+      "_id": "30409",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30410
+          },
+          "output": "Claire Blanchard",
+          "input": [
+            "Claire",
+            "Blanchard"
+          ]
+        },
+        "year_in_school": "FR",
+        "age": 23,
+        "first_name": "Claire",
+        "university": {
+          "_id": 251,
+          "name": "CalTech"
+        },
+        "last_name": "Blanchard",
+        "course_names": [
+          "PHYS102",
+          "MATH201",
+          "MATH102",
+          "PHYS201"
+        ]
+      },
+      "_id": "30410",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30411
+          },
+          "output": "Samantha Robbins",
+          "input": [
+            "Samantha",
+            "Robbins"
+          ]
+        },
+        "year_in_school": "SO",
+        "age": 23,
+        "first_name": "Samantha",
+        "university": {
+          "_id": 247,
+          "name": "UT"
+        },
+        "last_name": "Robbins",
+        "course_names": [
+          "CS203"
+        ]
+      },
+      "_id": "30411",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30412
+          },
+          "output": "Ollie Gregg",
+          "input": [
+            "Ollie",
+            "Gregg"
+          ]
+        },
+        "year_in_school": "SR",
+        "age": 18,
+        "first_name": "Ollie",
+        "university": {
+          "_id": 252,
+          "name": "KPI"
+        },
+        "last_name": "Gregg",
+        "course_names": [
+          "MATH302"
+        ]
+      },
+      "_id": "30412",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30413
+          },
+          "output": "Lauren Bischoff",
+          "input": [
+            "Lauren",
+            "Bischoff"
+          ]
+        },
+        "year_in_school": "FR",
+        "age": 20,
+        "first_name": "Lauren",
+        "university": {
+          "_id": 251,
+          "name": "CalTech"
+        },
+        "last_name": "Bischoff",
+        "course_names": [
+          "PHYS303",
+          "CS303",
+          "MATH101",
+          "CS302"
+        ]
+      },
+      "_id": "30413",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30414
+          },
+          "output": "Jonathan Board",
+          "input": [
+            "Jonathan",
+            "Board"
+          ]
+        },
+        "year_in_school": "JR",
+        "age": 17,
+        "first_name": "Jonathan",
+        "university": {
+          "_id": 249,
+          "name": "MIT"
+        },
+        "last_name": "Board",
+        "course_names": [
+          "MATH103",
+          "CHEM303",
+          "CHEM302",
+          "PHYS302",
+          "PHYS301",
+          "MATH102",
+          "CS103"
+        ]
+      },
+      "_id": "30414",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30415
+          },
+          "output": "Stanley Hadlock",
+          "input": [
+            "Stanley",
+            "Hadlock"
+          ]
+        },
+        "year_in_school": "JR",
+        "age": 22,
+        "first_name": "Stanley",
+        "university": {
+          "_id": 253,
+          "name": "DPI"
+        },
+        "last_name": "Hadlock",
+        "course_names": [
+          "CS303"
+        ]
+      },
+      "_id": "30415",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30416
+          },
+          "output": "Earl Archer",
+          "input": [
+            "Earl",
+            "Archer"
+          ]
+        },
+        "year_in_school": "SR",
+        "age": 23,
+        "first_name": "Earl",
+        "university": {
+          "_id": 253,
+          "name": "DPI"
+        },
+        "last_name": "Archer",
+        "course_names": [
+          "PHYS101",
+          "CS302",
+          "CS203",
+          "CS102",
+          "PHYS102",
+          "MATH201",
+          "CHEM302",
+          "PHYS301"
+        ]
+      },
+      "_id": "30416",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30417
+          },
+          "output": "Lynda Rose",
+          "input": [
+            "Lynda",
+            "Rose"
+          ]
+        },
+        "year_in_school": "SO",
+        "age": 23,
+        "first_name": "Lynda",
+        "university": {
+          "_id": 248,
+          "name": "TAMU"
+        },
+        "last_name": "Rose",
+        "course_names": [
+          "CHEM303",
+          "CS301",
+          "CS302",
+          "PHYS101",
+          "CS303",
+          "MATH103",
+          "PHYS203"
+        ]
+      },
+      "_id": "30417",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30418
+          },
+          "output": "Kara Hansen",
+          "input": [
+            "Kara",
+            "Hansen"
+          ]
+        },
+        "year_in_school": "JR",
+        "age": 25,
+        "first_name": "Kara",
+        "university": {
+          "_id": 251,
+          "name": "CalTech"
+        },
+        "last_name": "Hansen",
+        "course_names": [
+          "CHEM202",
+          "MATH303",
+          "CS301",
+          "CHEM102",
+          "PHYS103",
+          "CS101",
+          "CHEM103",
+          "MATH202",
+          "MATH201"
+        ]
+      },
+      "_id": "30418",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30419
+          },
+          "output": "Joan Ace",
+          "input": [
+            "Joan",
+            "Ace"
+          ]
+        },
+        "year_in_school": "JR",
+        "age": 18,
+        "first_name": "Joan",
+        "university": {
+          "_id": 252,
+          "name": "KPI"
+        },
+        "last_name": "Ace",
+        "course_names": [
+          "CHEM302",
+          "CHEM101",
+          "MATH101",
+          "CHEM203",
+          "CHEM301",
+          "CHEM102",
+          "MATH301"
+        ]
+      },
+      "_id": "30419",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30420
+          },
+          "output": "Brandon Wilburn",
+          "input": [
+            "Brandon",
+            "Wilburn"
+          ]
+        },
+        "year_in_school": "JR",
+        "age": 18,
+        "first_name": "Brandon",
+        "university": {
+          "_id": 252,
+          "name": "KPI"
+        },
+        "last_name": "Wilburn",
+        "course_names": [
+          "MATH302",
+          "MATH303",
+          "CS103",
+          "CHEM103",
+          "MATH203",
+          "MATH301",
+          "MATH101"
+        ]
+      },
+      "_id": "30420",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30421
+          },
+          "output": "Charlotte Peckenpaugh",
+          "input": [
+            "Charlotte",
+            "Peckenpaugh"
+          ]
+        },
+        "year_in_school": "JR",
+        "age": 25,
+        "first_name": "Charlotte",
+        "university": {
+          "_id": 252,
+          "name": "KPI"
+        },
+        "last_name": "Peckenpaugh",
+        "course_names": [
+          "MATH302"
+        ]
+      },
+      "_id": "30421",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30422
+          },
+          "output": "Scott Salinas",
+          "input": [
+            "Scott",
+            "Salinas"
+          ]
+        },
+        "year_in_school": "FR",
+        "age": 23,
+        "first_name": "Scott",
+        "university": {
+          "_id": 248,
+          "name": "TAMU"
+        },
+        "last_name": "Salinas",
+        "course_names": [
+          "MATH302",
+          "CS202"
+        ]
+      },
+      "_id": "30422",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30423
+          },
+          "output": "Patricia Dejesus",
+          "input": [
+            "Patricia",
+            "Dejesus"
+          ]
+        },
+        "year_in_school": "SR",
+        "age": 25,
+        "first_name": "Patricia",
+        "university": {
+          "_id": 253,
+          "name": "DPI"
+        },
+        "last_name": "Dejesus",
+        "course_names": [
+          "CS101",
+          "MATH201",
+          "CHEM201",
+          "MATH102",
+          "MATH203",
+          "CS102",
+          "PHYS302",
+          "CS201"
+        ]
+      },
+      "_id": "30423",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30424
+          },
+          "output": "John Turner",
+          "input": [
+            "John",
+            "Turner"
+          ]
+        },
+        "year_in_school": "SO",
+        "age": 18,
+        "first_name": "John",
+        "university": {
+          "_id": 249,
+          "name": "MIT"
+        },
+        "last_name": "Turner",
+        "course_names": [
+          "CHEM201",
+          "CS203",
+          "PHYS302"
+        ]
+      },
+      "_id": "30424",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30425
+          },
+          "output": "Douglas Sankey",
+          "input": [
+            "Douglas",
+            "Sankey"
+          ]
+        },
+        "year_in_school": "FR",
+        "age": 18,
+        "first_name": "Douglas",
+        "university": {
+          "_id": 252,
+          "name": "KPI"
+        },
+        "last_name": "Sankey",
+        "course_names": [
+          "CHEM103",
+          "CHEM302",
+          "PHYS302",
+          "MATH303",
+          "MATH203"
+        ]
+      },
+      "_id": "30425",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30426
+          },
+          "output": "Reginald Baker",
+          "input": [
+            "Reginald",
+            "Baker"
+          ]
+        },
+        "year_in_school": "SO",
+        "age": 20,
+        "first_name": "Reginald",
+        "university": {
+          "_id": 251,
+          "name": "CalTech"
+        },
+        "last_name": "Baker",
+        "course_names": [
+          "PHYS303",
+          "MATH101",
+          "CHEM203",
+          "MATH201",
+          "CHEM101",
+          "CHEM202",
+          "CS303"
+        ]
+      },
+      "_id": "30426",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30427
+          },
+          "output": "Janet Devries",
+          "input": [
+            "Janet",
+            "Devries"
+          ]
+        },
+        "year_in_school": "FR",
+        "age": 21,
+        "first_name": "Janet",
+        "university": {
+          "_id": 251,
+          "name": "CalTech"
+        },
+        "last_name": "Devries",
+        "course_names": [
+          "CS203",
+          "MATH201",
+          "CHEM303",
+          "PHYS102",
+          "MATH103",
+          "CHEM302",
+          "PHYS201"
+        ]
+      },
+      "_id": "30427",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30428
+          },
+          "output": "Jonathan Powell",
+          "input": [
+            "Jonathan",
+            "Powell"
+          ]
+        },
+        "year_in_school": "FR",
+        "age": 21,
+        "first_name": "Jonathan",
+        "university": {
+          "_id": 254,
+          "name": "PSTU"
+        },
+        "last_name": "Powell",
+        "course_names": [
+          "CHEM101",
+          "MATH301",
+          "PHYS201",
+          "CHEM301"
+        ]
+      },
+      "_id": "30428",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  },
+  {
+    "create": {
+      "_index": "django",
+      "data": {
+        "name_complete": {
+          "payload": {
+            "pk": 30429
+          },
+          "output": "Mindy Lovaglio",
+          "input": [
+            "Mindy",
+            "Lovaglio"
+          ]
+        },
+        "year_in_school": "SR",
+        "age": 22,
+        "first_name": "Mindy",
+        "university": {
+          "_id": 248,
+          "name": "TAMU"
+        },
+        "last_name": "Lovaglio",
+        "course_names": [
+          "PHYS102",
+          "CS302",
+          "CS201",
+          "CHEM302",
+          "PHYS201",
+          "CHEM301",
+          "CHEM103",
+          "MATH103",
+          "CS202"
+        ]
+      },
+      "_id": "30429",
+      "_type": "student",
+      "status": 400,
+      "error": {
+        "reason": "failed to parse",
+        "caused_by": {
+          "reason": "unknown field name [payload], must be one of [input, weight, contexts]",
+          "type": "illegal_argument_exception"
+        },
+        "type": "mapper_parsing_exception"
+      }
+    }
+  }
+]
