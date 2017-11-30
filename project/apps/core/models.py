@@ -67,6 +67,7 @@ class Student(models.Model):
     # Answer is somewhere in these pages:
     # https://www.elastic.co/guide/en/elasticsearch/reference/6.0/fielddata.html
     # https://www.elastic.co/guide/en/elasticsearch/reference/6.0/doc-values.html
+    # https://github.com/elastic/elasticsearch-dsl-py/issues/719
     class Meta:
         es_index_name = 'django'
         es_type_name = 'Student'
