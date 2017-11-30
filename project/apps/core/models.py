@@ -64,7 +64,9 @@ class Student(models.Model):
     # Using fielddata on course_names throws error when runnign indexing command:
     #     'Cannot enable fielddata on a [text] field that is not indexed: [course_names]'
     # Using keywords on course_names results in an error saying to use fielddate on course_names.
-    # WTF...
+    # Answer is somewhere in these pages:
+    # https://www.elastic.co/guide/en/elasticsearch/reference/6.0/fielddata.html
+    # https://www.elastic.co/guide/en/elasticsearch/reference/6.0/doc-values.html
     class Meta:
         es_index_name = 'django'
         es_type_name = 'Student'
