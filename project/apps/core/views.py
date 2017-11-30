@@ -48,14 +48,13 @@ class HomePageView(TemplateView):
             'aggs': {
                 'course_names': {
                     'terms': {
-                        'field': 'course_names' #,
+                        'field': 'course_names'
                         # 'size': 0
                     }
                 },
                 'university__name': {
                     'terms': {
-                        'field': 'university.name' #,
-                        # 'field data': True
+                        'field': 'university.name'
                     }
                 },
                 'year_in_school': {

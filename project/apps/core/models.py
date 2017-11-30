@@ -54,9 +54,20 @@ class Student(models.Model):
     # Replaces 'string' with 'text'.
     # Replace 'index': 'not_analyzed' with 'index': False.
     # Replace 'store': 'yes' with 'store': True.
+    # ISSUE:
+    # TransportError(400, 'search_phase_execution_exception', 'Fielddata is disabled on text fields by default.
+    # Set fielddata=true on [course_names | year_in_school] in order to load fielddata in memory by uninverting the inverted index.
+    # Note that this can however use significant memory. Alternatively use a keyword field instead.')
+    # UPDATE:
+    # Tested using fielddata values, does not seem to eliminate bug (though erroring field changes as filddata boolean is set).
+    # Tested using fields: {keyword: {type:}}} values, also doesn't work.
+    # Using fielddata on course_names throws error when runnign indexing command:
+    #     'Cannot enable fielddata on a [text] field that is not indexed: [course_names]'
+    # Using keywords on course_names results in an error saying to use fielddate on course_names.
+    # WTF...
     class Meta:
         es_index_name = 'django'
-        es_type_name = 'student'
+        es_type_name = 'Student'
         es_mapping = {
             'properties': {
                 'university': {
@@ -64,7 +75,13 @@ class Student(models.Model):
                     'properties': {
                         'name': {
                             'type': 'text',
-                            'index': False,
+                            'index': False
+                            # 'fielddata': True
+                            # 'fields': {
+                            #     'keyword': {
+                            #       'type': 'keyword'
+                            #     }
+                            # }
                         }
                     }
                 },
@@ -81,21 +98,33 @@ class Student(models.Model):
                 },
                 'year_in_school': {
                     'type': 'text'
+                    # 'fielddata': True
+                    # 'fields': {
+                    #     'keyword': {
+                    #       'type': 'keyword'
+                    #     }
+                    # }
                 },
                 'name_complete': {
                     'type': 'completion',
                     'analyzer': 'simple',
-                    # DISABLED TO SUCCEED IN BULK INDEXING.
-                    # SEE ERRORS BELOW.
-                    # 'payloads': True,
                     'preserve_separators': True,
                     'preserve_position_increments': True,
                     'max_input_length': 50
+                    # DISABLED TO SUCCEED IN BULK INDEXING.
+                    # SEE ERRORS BELOW.
+                    # 'payloads': True,
                 },
                 'course_names': {
                     'type': 'text',
                     'store': True,
-                    'index': False
+                    'index': False,
+                    'fielddata': True
+                    # 'fields': {
+                    #     'keyword': {
+                    #       'type': 'keyword'
+                    #     }
+                    # }
                 }
             }
         }
