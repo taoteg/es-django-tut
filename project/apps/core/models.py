@@ -78,13 +78,13 @@ class Student(models.Model):
                     'properties': {
                         'name': {
                             'type': 'text',
-                            'index': False
+                            'index': False,
                             # 'fielddata': True
-                            # 'fields': {
-                            #     'keyword': {
-                            #       'type': 'keyword'
-                            #     }
-                            # }
+                            'fields': {
+                                'keyword': {
+                                  'type': 'keyword'
+                                }
+                            }
                         }
                     }
                 },
@@ -100,13 +100,13 @@ class Student(models.Model):
                     'type': 'short'
                 },
                 'year_in_school': {
-                    'type': 'text'
+                    'type': 'text',
                     # 'fielddata': True
-                    # 'fields': {
-                    #     'keyword': {
-                    #       'type': 'keyword'
-                    #     }
-                    # }
+                    'fields': {
+                        'keyword': {
+                          'type': 'keyword'
+                        }
+                    }
                 },
                 'name_complete': {
                     'type': 'completion',
@@ -122,12 +122,12 @@ class Student(models.Model):
                     'type': 'text',
                     'store': True,
                     'index': False,
-                    'fielddata': True
-                    # 'fields': {
-                    #     'keyword': {
-                    #       'type': 'keyword'
-                    #     }
-                    # }
+                    # 'fielddata': True
+                    'fields': {
+                        'keyword': {
+                          'type': 'keyword'
+                        }
+                    }
                 }
             }
         }
