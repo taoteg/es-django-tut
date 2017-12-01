@@ -1,6 +1,6 @@
 import json
-# from urllib import urlencode
-from urllib.parse import urlencode
+# from urllib import urlencode      # Python 2.
+from urllib.parse import urlencode  # Python 3.
 from copy import deepcopy
 from django.http import HttpResponse
 from django.conf import settings
@@ -13,7 +13,7 @@ client = settings.ES_CLIENT
 
 def autocomplete_view(request):
     query = request.GET.get('term', '')
-    resp = client.suggest(
+    resp = client.suggest(                  # Throwing error on client.suggest.
         index='django',
         body={
             'name_complete': {
