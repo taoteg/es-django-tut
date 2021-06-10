@@ -1,6 +1,6 @@
 certifi==2017.11.5
 chardet==3.0.4
-Django==1.9.3
+Django==2.2.24
 django-debug-toolbar==1.9.1
 django-extensions==1.9.7
 elasticsearch==6.0.0
