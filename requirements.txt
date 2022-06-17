@@ -7,7 +7,7 @@ elasticsearch==6.0.0
 GDAL==1.11.2
 idna==2.6
 model-mommy==1.4.0
-numpy==1.8.2
+numpy==1.21.0
 pytz==2017.3
 requests==2.18.4
 six==1.11.0
